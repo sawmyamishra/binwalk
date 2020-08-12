@@ -2,7 +2,7 @@ FROM ubuntu
 
 ENV TZ=Asia
 
-ADD dissertation_files ./home/dissertation_files
+ADD dissertationfiles ./home/testing_files
 
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
